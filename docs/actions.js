@@ -18,5 +18,5 @@ function PopWindowOne()
 
 function PopWindowTwo()
 {
-    floatingWindow = window.open("PopIt2.html","","height=400,width=300,scrollbars=no");
+    floatingWindow = window.open("edades.html","","height=400,width=300,scrollbars=no");
 }
