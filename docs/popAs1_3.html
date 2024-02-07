@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en;sp">
+<head>
+    <meta charset="UTF-8">
+    <title>PyE A1S1s3</title>
+    <meta name="PyE A1S1s3"  content="HSE V;notranslate;"/>
+    <meta name="Author" content="Héctor René Becerril Cejudo"/>
+    <meta name="keywords" content="probabilidad y estadística"/>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body translate="no">
+<script src="actions.js"></script>
+<a id="home"></a>
+
+    <h1>
+        <div style="font-size:30px;
+        line-height:30px;padding-bottom:5px;">
+            &ensp;PROBABILIDAD Y ESTADÍSTICA
+            <br>
+        </div>
+    </h1>
+                        <br>
+
+                        <ph5>
+                            3. Medidas de tendencia central
+                        </ph5>
+<br>
+Duración: 4 sesiones
+<br>
+<br>
+<p style = "color:#EB417D;font-weight:bold;">Situación I</p>
+En un almacén de ropa se revisaron 22 cajas de producto seleccionadas al azar buscando
+detectar prendas defectuosas. Los resultados se muestran a continuación:
+<br>
+<br>
+<text style="color:white;">Tabla de resultados.</text>
+<table border=0
+
+           style="background-color:lightgrey;color:#333333;"
+           >
+
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr><th>Número de <br>muestra</th><th>Número de prendas <br>defectuosas</th><tr></thead>
+            <tr style="background-color:grey"><td align="left"> <br></td><td align="right"> <br></td></tr>
+                <tr><td align="left"> Caja 1</td><td align="right">3</td></tr>
+                <tr><td align="left"> Caja 2</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 3</td><td align="right">0</td></tr>
+                <tr><td align="left"> Caja 4</td><td align="right">2</td></tr>
+                <tr><td align="left"> Caja 5</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 6</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 7</td><td align="right">3</td></tr>
+                <tr><td align="left"> Caja 8</td><td align="right">5</td></tr>
+                <tr><td align="left"> Caja 9</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 10</td><td align="right">7</td></tr>
+                <tr><td align="left"> Caja 11</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 12</td><td align="right">1</td></tr>
+                <tr><td align="left"> Caja 13</td><td align="right">5</td></tr>
+                <tr><td align="left"> Caja 14</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 15</td><td align="right">8</td></tr>
+                <tr><td align="left"> Caja 16</td><td align="right">5</td></tr>
+                <tr><td align="left"> Caja 17</td><td align="right">6</td></tr>
+                <tr><td align="left"> Caja 18</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 19</td><td align="right">3</td></tr>
+                <tr><td align="left"> Caja 20</td><td align="right">4</td></tr>
+                <tr><td align="left"> Caja 20</td><td align="right">6</td></tr>
+                <tr><td align="left"> Caja 20</td><td align="right">2</td></tr>
+
+                </table>
+<br>
+<br>
+Con la información recabada construimos el siguiente diagrama de puntos. Los números en
+el eje representan la cantidad de prendas defectuosas observadas en cada muestra y la altura
+o número de puntos rojos representa el número de muestras o cajas. Por ejemplo, se obsevaron
+tres cajas en las que se encontró en cada una un total de 5 prendas defectuosas, es así que
+en la gráfica observamos que en el número 5 hay 3 puntos.
+<br>
+<br>
+
+<br>
+<br>
+<img src="diagrama de puntos.png" class="zoom1">
+
+<br>
+<br>
+                <text>
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
+                        <br>
+                        <b>Actividad 3</b>
+
+                        <br>
+                        &#128073;<button onclick="PopWinAr3()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 3....</button>
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;<b>Transcribe la tabla y el diagrama en tu libreta. Escribe las siguientes preguntas y
+responde correctamente</b>.
+<br>
+<br>
+¿Cuántas cajas se encontraron con 4 prendas defectuosas en cada una?<br>
+¿Cuántos puntos hay en total en el diagrama?
+<br>
+<br>
+<b>Responde Falso/Verdadero</b>
+<br>
+<br>
+El número de puntos corresponde al número de muestras observadas. (  )
+                    </p>
+                </text>
+
+                <br>
+                <br>
+<p style = "color:#EB417D;font-weight:bold;">Situación III</p>
+                    Una tienda de abarrotes tiene <b>dos proveedores</b> de guayaba (proveedor g1 y proveedor g2), y
+               ambos le hacen entregas en <b>cajas de 12 kg</b>. La dueña de la tienda sospecha que
+               las cajas a veces pesan menos. La dueña quiere saber <b>cuál de los dos proveedores
+               es más confiable en el peso de las cajas</b> que le entrega. La dueña pidió ayuda a
+               los estudiantes del CBTA 205 y estos diseñaron un experimento para revelar la verdad.
+                Los estudiantes tomaron una <b>muestra</b> al azar de 10 cajas de cada proveedor y
+               las pesaron obteniendo los siguientes datos:
+                <br>
+                <p style = "color:white;font-weight:bold;">Proveedor g1</p>
+                Después de pesar las 10 cajas del proveedor g1 se observaron los
+               siguientes resultados en kg.
+                <br>
+               <br>
+               11.5, 11.9, 9.1, 11.9, 12.9, 10.9, 12.5, 10.8, 10.3, 11.3
+               <p style = "color:white;font-weight:bold;">Proveedor g2</p>
+                Después de pesar las 10 cajas del proveedor g2 se observaron los
+               siguientes resultados en kg.
+                <br>
+               <br>
+               10.4, 12, 11.2, 12.1, 11.3, 11.1, 11.2, 11.7, 10.9, 11.2
+               <br>
+               <br>
+
+
+                <!--Ingresa el siguiente código:
+                <br>
+                <br>
+                print("La edad mas grande es: ")<br>
+                max(edades)<br>
+                print("--------------------------")<br>
+                print(paste0("La edad mas grande es: ", max(edades)))<br>
+                print(paste0("La edad mas chica es: ", min(edades)))<br>
+                print(paste0("Las veces que se presenta cada edad es: "))<br>
+                table(edades)<br>-->
+
+
+
+                <text>
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
+                        <br>
+                        <b>Actividad 4</b>
+
+                        <br>
+                        &#128073;<button onclick="PopWinAr4()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 4....</button>
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;<b>Escribe las siguientes siguientes instrucciones y preguntas en
+                        tu libreta y responde correctamente.</b>
+                        <br>
+                        <br>
+
+
+                        <px>
+                            <span>&Sigma; x<sub style="font-size:18px"> i</sub> = 11.5 + 11.9 + ... + 11.3</span>
+                        </px>
+
+                    </p>
+                </text>
+
+
+                <br>
+                <br>
+                <button onclick="PopWinAs1_2()"
+                                style="font-weight:bold;color:white;width:100px" class="botonBack">
+                   <<</button>
+<button onclick="PopWinAs1_4()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button>
+
+
+                <br>
+<br>
+<br>
+
+<!--
+
+
+
+
+                <h5 id="1 sub 1 sub 1">
+                    <br>
+                    <br>
+                <p style="background:purple;color:white;font-weight:bold;">&emsp;&#129322;Activity 1</p></h5>
+                <h5 id="1 sub 1 sub 1 sub 1">
+                    <br>
+                    <br>
+                    <p style="background:#66C802;color:white">&#128214;&#127911;Reading and listening</p>
+                </h5>
+                1. Read and listen to Miguel, he is the manager's assistant in a busy hotel. He usually
+                deals with the hotel's guests. Today is a busy morning: there is a congress going on
+                at the hotel's premises.
+                &#128073;<a style="color:yellow;" href="https://training.grupoktdra.com/BT-ING5/audio/JJJF/QOAZ" target="_blank"> &#128266; Listen</a> <b>to him and match his statements to the pictures</b>.
+
+                <br>
+                <br>
+                a. Excuse me, sir. You mustn't smoke in here. It's a non-smoking area.<br>
+                b. Madam? Excuse me, but you mustn't carry the pool towels out of the pool area.<br>
+                c. Excuse me, Ma'am. You must leave your wine glass at the lobby bar.<br>
+                d. Excuse me, young man. You mustn't use your scooter in the lobby.<br>
+                e. Excuse me, sir. You must leave a deposit in advance. That's the hotel's policy.<br>
+                f. Excuse me, ladies. I must ask you to move, you are blocking the entrance. But I've
+                already arranged a table for you at the bar.<br>
+                g. Excuse me young lady. You must fill an identity card for your teddy bear. It's hotel's
+                regulations.<br>
+                h. Excuse me, madam. I must ask you to wait for a minute while I bring a wheelchair.<br>
+                <br>
+                <img src = "libro F-001.jpg"
+             class = "center" style ="width:100%">
+                <br>
+                <br>
+                2. Now, practice the sentences. Pay attention to the pronunciation. Listen to the sentences
+                as many times as you need in order to practice.
+                <br>
+                <br>
+
+                <br>
+                <text  id ="pronunciation tip 1">
+                    <p style="background-color:#EF3E54;color:black;font-weight:normal;">
+                        <br>
+                        <br>
+                        <b>Pronunciation practice tip 1</b>
+                        <br>
+                        <br>
+                Listen to each line and repeat it. Practice
+                "shadowing". Shadowing means listening to a short sentence or phrase, and then repeating it
+                afterwards, trying to imitate the sounds, intonation and word stress.</p></text>
+                <br>
+                <br>
+
+-->
+           </h3>
+</div>
+
+</body>
+</html>

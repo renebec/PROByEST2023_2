@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en;sp">
+<head>
+    <meta charset="UTF-8">
+    <title>PyE T1</title>
+    <meta name="PyE T1"  content="HSE V;notranslate;"/>
+    <meta name="Author" content="Héctor René Becerril Cejudo"/>
+    <meta name="keywords" content="probabilidad y estadística"/>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body translate="no">
+<script src="actions.js"></script>
+<a id="home"></a>
+
+    <h1>
+        <div style="font-size:30px;
+        line-height:30px;padding-bottom:5px;">
+            &ensp;PROBABILIDAD Y ESTADÍSTICA
+            <br>
+        </div>
+        <text style="font-size:30px;padding-left:10px; color:#676767;">
+            &emsp;Del manejo de la información al pensamiento estocástico.</text> <!--Eje-->
+    </h1>
+    <img src = "https://cdn.dribbble.com/users/8619169/screenshots/16116886/media/a63d64bcccad878cb9dfdb9a9f6b6416.gif"
+             style ="height:300px;width:50%;float:center;">
+    <img src = "https://cdn.dribbble.com/users/13496/screenshots/1327531/analytics-app.gif"
+             style ="height:300px;width:50%;float:right;">
+
+    <text style="font-size:16px;color:grey;text-align:center;"
+                  class="center">
+                Fuente: https://dribbble.com/ &emsp;&emsp;http://sdo1.krsk.irgups.ru/
+            </text>
+
+<!--
+        <h2>
+            <div style="font-family:montserrat,sans-serif;font-size:20px;color:darkgrey;line-height:30px;
+                        padding-bottom:0px;padding-top:0px;background-color:#FF7700;text-align:justify;">
+                <p style="color:white;#FF7700;
+                padding-top:15px;padding-bottom:15px;line-height:10px;">
+                &nbsp;SEP SEMS DGETAyCM<br><br>
+                </p>
+            </div>
+
+
+
+
+
+            <p style ="font-family:tahoma;color:grey;font-size:16px;">
+                M.C. Héctor René Becerril Cejudo<br>
+                hector.becerril@dgetaycm.sems.gob.mx<br>
+            </p>
+        </h2>
+            <p style="text-align:right;font-size:15px;color:#888888;">Aguascalientes, a 01 de febrero de 2024</p>
+
+<ul style="list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #2B2A2A;
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0;">
+        <li style="float:center;margin:0;padding:0%">
+            <a style="display: block;
+                      color: white;
+                      text-align: center;
+                      padding: 10px 1px;
+                      text-decoration: none;"
+                                   class="active;"
+                                   href="#home">
+
+                inicio
+            </a>
+        </li>
+    </ul>
+<br>
+<br>
+
+<section style="background-color:#656565">
+<hr>
+<div style="margin-left:0%;padding:16px 16px;height:100%;" >
+
+
+    <div id="toc_container">
+        <p class="toc_title" style="color:white;text-decoration: none;">Contenido
+        </p>
+        <ul class="toc_list" style="text-decoration: none;">
+            <li>
+                <a href="#header"> A. Presentación</a>
+            </li>
+            <li>
+                <a href="#cap 1"><text style="color:white;font-weight:bold;">Parte I: conceptos básicos de estadística y
+                probabilidad <buttonA1 onclick="PopWinA1()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonA1>  </text></a>
+            </li>
+
+            <br>
+                <br>
+            <ul>
+                    <li>
+                        <a href="#1 sub 1"><b style="color:#FFFFFF">Manejo de la
+                            información en situaciones de la vida cotidiana.</b>
+                        <buttonAs1 onclick="PopWinAs1()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonAs1></a>
+                    </li>
+                    <ul>
+                        <li>
+                                <a href="#1 sub 1 sub 0">&#8226; Explorando conocimientos previos
+                                <buttonAs1_1 onclick="PopWinAs1_1()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonAs1_1></a>
+                            </li>
+                        <ul>
+                            <li>
+                                <a href="#1 sub 1 sub 0 sub 1">&#8226; Actividad 1
+                                <buttonAs1_1e1 onclick="PopWinAe3()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonAs1_1e1></a>
+                            </li>
+                        </ul>
+                        <li>
+                                <a href="#1 sub 1 sub 1">&#8226; Conociendo R
+                                <buttonAs1_2 onclick="PopWinAe3()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonAs1_2></a>
+                            </li>
+
+                            <li>
+                                <a href="#1 sub 1">&#8226; Activity 1</a>
+                            </li>
+                            <ul>
+                                <li>
+                                    <a href="#1 sub 1 sub 1 sub 1">&#8226; Reading and listening</a>
+                                </li>
+
+                                <li>
+                                    <a href="#1 sub 1 sub 1 sub 2">&#8226; To speak and write correctly</a>
+                                </li>
+
+                            </ul>
+                        </ul>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+    <hr>
+</section>
+
+
+
+            <section>
+                <h3 id="header">
+                    <br>
+                    <br>Presentación</h3>
+                El presente material didáctico es una recopilación de lecturas y algunos ejercicios de
+                distintas fuentes bibliográficas. El propósito es facilitar a los estudiantes una
+                colección selecta de materiales que les sean útiles para guiarse en la asignatura de
+                Probabilidad y Estadística. Los ejercicios que se presentan no son limitativos de lo
+                que los docentes puedan agregar en su programación de actividades y prácticas. La
+                transversalidad con otras asignaturas también es a consideración de los docentes de
+                acuerdo a su contexto particular.
+                <br>
+                <br>
+                Estaré atento a las sugerencias o correcciones
+                que puedan observarse sobre este material, seguro estoy de que habrá muchas aportaciones
+                enriquecedoras por parte de otros profesionales en el área.
+                Por último, de corazón espero que éste modesto esfuerzo les sea de utilidad en cada uno de
+                sus planteles y espacios de aprendizaje.
+                <br>
+                <br>
+                <p style="text-align:right">
+                Aguascalientes a 31 de enero de 2024<br>
+                </p>
+
+                <h3 id="cap 1" >
+                    --><br>
+
+                    <br>
+                    <ph3>
+                  Parte 1: conceptos básicos de estadística y probabilidad
+                        </ph3>
+                    <br><br>
+                </h3>
+
+                <p style="color:#FFB811"> <b>Aprendizajes esperados</b>:
+                <br>
+                    <div style="padding-left:5%;color:#FFE090">
+                    Recolecta y ordena la información de alguna situación.<br>
+                    Interpreta y analiza la información.<br>
+                    Representa la información.<br>
+                    Toma decisiones a partir del análisis de la información.</p>
+                    </div>
+
+                <p style="color:#FFB811"> <b>Producto esperado</b>:
+                <br>
+                <div style="padding-left:5%;color:#FFE090">
+                Construcción de distintos tipos de gráficos y emisión de opiniones derivadas de ellos.
+                </div>
+
+                <p style="color:#FFB811"> <b>Duración</b>:
+                <br>
+                <div style="padding-left:5%;color:#FFE090">
+                5 semanas.
+
+                <br>
+                <br>
+
+                <button onclick="PopWinAs1()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                </div>
+<!--
+
+
+                    <h4 id="1 sub 1">
+                        <br>
+                        <br>
+                        <ph4>
+                            Tema 1. Manejo de la información en situaciones de la vida cotidiana.
+                        </ph4>
+                    </h4>
+
+                <h5 id="1 sub 1 sub 0">
+                        <br>
+                        <br>
+                    <br>
+                        <ph5>
+                            1. Explorando conocimientos previos
+                        </ph5>
+                    </h5>
+
+
+
+                Se presentan a continuación los datos de las edades de 83 trabajadores
+                de la planta NISSAN - CIVAC, ubicada en el estado de Morelos, México.
+
+                <br>
+
+                <p style = "font-family:courier;line-height:20px;color:#E2E090;padding:5%">
+                    Tabla 1. Edades de 83 trabajadores de NISSAN.<br>
+                    ___________<br><br>
+                    29 28 39 27 27 30 34 44 30 31 26 28 30 36 27 35 37 29 43 30 30 27 28 55 26 40 28 29 26 31 31 33
+                    36 59 31 25 47 24 57 30 32 27 29 32 28 45 31 35 33 29 26 61 46 27 37 33 24 30 26 34 33 29 31 28
+                    27 28 31 28 28 26 39 28 30 28 31 27 34 32 28 28 27 55 33<br>
+                    ___________
+                    </p>
+
+                Para el 50 aniversario de la planta se organizó un concurso en el que se dará como premio un
+                auto nuevo de fábrica. Solo podrán participar los dos trabajadores más puntuales. El concurso
+                consiste en lo siguiente:
+                <br>
+                <br>
+                <div style="padding-left:5%;padding-right:5%;font-style:italic;color:#E2E090">
+                En diferentes papelitos se escribirán las edades de los trabajadores de la fábrica. Los 83
+                papelitos se ingresarán en una tómbola. El concursante deberá sacar un papelito de la tómbola,
+                pero antes de hacerlo tiene que adivinar y decir en voz alta la edad que aparecerá escrita en
+                    el papelito. Aquel que atine primero la edad que aparecerá en el papelito será el ganador.
+                    <b>Ana</b> y <b>Luis</b> son los participantes.
+                    </div>
+                <br>
+                <br>
+                &emsp;<b>Ana</b> eligió el número 30.<br>
+                &emsp;<b>Luis</b> eligió el número 39.
+                <br>
+                <br>
+                <h6
+                id="1 sub 1 sub 0 sub 1">
+                    <br> <br>
+                <text  id ="actividad 1">
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
+                        <br>
+                        <b>Actividad 1</b>
+                        <br>
+                        &#128073;<buttonAr1 onclick="PopWinAr1()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            Ver Rúbrica 1....</buttonAr1><br><br>
+                        &nbsp;&nbsp;Cada estudiante escribe en su libreta las siguientes instrucciones y preguntas.<br><br>
+                        &nbsp;&nbsp;a) Formen equipos de 4 integrantes.<br>
+                &nbsp;&nbsp;b) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por Ana: <br>
+                &nbsp;&nbsp;c) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por Luis: <br>
+                &nbsp;&nbsp;d) ¿Quién crees que tiene más posibilidades de ganar el premio y por qué?<br>
+                 &nbsp;&nbsp;e) De todas las edades registradas en la Tabla 1 ¿Cuál es la que tu escogerías para
+                        tener más posibilidades de ganar el premio?<br>
+                 &nbsp;&nbsp;f) Argumenta por qué escogiste ese número.<br>
+                 &nbsp;&nbsp;g) ¿Cuál es el promedio de edad en la Tabla 1?<br>
+                 &nbsp;&nbsp;h) ¿Cuál es la edad más grande y la edad más chica en la Tabla 1?<br>
+                        <br>
+                    </p></text></h6>
+
+                <h5 id="1 sub 1 sub 1">
+                        <br>
+                        <br>
+
+                        <ph5>
+                            2. Conociendo R
+                        </ph5>
+                    </h5>
+                <b>R</b> es un lenguaje y un entorno para la computación estadística y gráficos.
+                Uno de los puntos fuertes de <b>R</b> es la facilidad con la que se pueden
+                producir gráficos bien diseñados con calidad de publicación
+                <a style="color:lightgreen;" href="https://www.r-project.org/about.html" target = _blank>[1]</a>.
+                Instalaremos <b>R</b> en los equipos del laboratorio de cómputo, puedes descargar
+                la última versión en el siguiente
+                <a style="color:lightgreen;" href="https://cran.r-project.org/mirrors.html" target = _blank>sitio&#128072;</a>
+                y escoger el <i>mirror</i> de descarga que te corresponde de acuerdo al país donde te encuentres.
+                <br>
+                <br>
+                Una vez instalado <b>R</b> en tu computadora, en tu libreta realiza a mano las operaciones que
+                se indican en la siguiente
+                &#128073;<buttonAe2 onclick="PopWinAe2()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    l i g a</buttonAe2> &#128072; al finalizar tu profesor te enseñará
+                como hacer las mismas operaciones utilizando el lenguaje <b>R</b>. Abre el programa <b>R</b> que fue
+                instalado en tu equipo o, alternativamente, si aún no lo tienes
+                instalado, puedes trabajar
+                <b>en línea</b> ingresando al sitio <a style="color:#77e988;" href="https://rdrr.io/snippets/" target = _blank>snippets&#128072;</a>
+                donde deberás ingresar las instrucciones en la ventana de comando. Consulta cualquier duda con tu profesor.
+                <br>
+                <br>
+
+
+                Ingresa el siguiente código:
+                <br>
+                <br>
+                print("La edad mas grande es: ")<br>
+                max(edades)<br>
+                print("--------------------------")<br>
+                print(paste0("La edad mas grande es: ", max(edades)))<br>
+                print(paste0("La edad mas chica es: ", min(edades)))<br>
+                print(paste0("Las veces que se presenta cada edad es: "))<br>
+                table(edades)<br>
+                Observa los 83 datos de las edades de los
+                trabajadores de NISSAN e ingrésalos en <b>R</b> y observa cuántas veces se repite
+                cada número siguiendo las instrucciones que &#128073;<buttonAe3 onclick="PopWinAe3()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</buttonAe3> se dan.
+
+
+
+                <br>
+                <br>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br>
+                <br>
+                <br>
+
+
+
+
+
+
+                <h5 id="1 sub 1 sub 1">
+                    <br>
+                    <br>
+                <p style="background:purple;color:white;font-weight:bold;">&emsp;&#129322;Activity 1</p></h5>
+                <h5 id="1 sub 1 sub 1 sub 1">
+                    <br>
+                    <br>
+                    <p style="background:#66C802;color:white">&#128214;&#127911;Reading and listening</p>
+                </h5>
+                1. Read and listen to Miguel, he is the manager's assistant in a busy hotel. He usually
+                deals with the hotel's guests. Today is a busy morning: there is a congress going on
+                at the hotel's premises.
+                &#128073;<a style="color:yellow;" href="https://training.grupoktdra.com/BT-ING5/audio/JJJF/QOAZ" target="_blank"> &#128266; Listen</a> <b>to him and match his statements to the pictures</b>.
+
+                <br>
+                <br>
+                a. Excuse me, sir. You mustn't smoke in here. It's a non-smoking area.<br>
+                b. Madam? Excuse me, but you mustn't carry the pool towels out of the pool area.<br>
+                c. Excuse me, Ma'am. You must leave your wine glass at the lobby bar.<br>
+                d. Excuse me, young man. You mustn't use your scooter in the lobby.<br>
+                e. Excuse me, sir. You must leave a deposit in advance. That's the hotel's policy.<br>
+                f. Excuse me, ladies. I must ask you to move, you are blocking the entrance. But I've
+                already arranged a table for you at the bar.<br>
+                g. Excuse me young lady. You must fill an identity card for your teddy bear. It's hotel's
+                regulations.<br>
+                h. Excuse me, madam. I must ask you to wait for a minute while I bring a wheelchair.<br>
+                <br>
+                <img src = "libro F-001.jpg"
+             class = "center" style ="width:100%">
+                <br>
+                <br>
+                2. Now, practice the sentences. Pay attention to the pronunciation. Listen to the sentences
+                as many times as you need in order to practice.
+                <br>
+                <br>
+
+                <br>
+                <text  id ="pronunciation tip 1">
+                    <p style="background-color:#EF3E54;color:black;font-weight:normal;">
+                        <br>
+                        <br>
+                        <b>Pronunciation practice tip 1</b>
+                        <br>
+                        <br>
+                Listen to each line and repeat it. Practice
+                "shadowing". Shadowing means listening to a short sentence or phrase, and then repeating it
+                afterwards, trying to imitate the sounds, intonation and word stress.</p></text>
+                <br>
+                <br>
+
+-->
+           </h3>
+</div>
+
+</body>
+</html>
