@@ -10,65 +10,65 @@ function PopWinA1()
 }
 
 
-function PopWinAs1()
+function PopWinA1s1()
 {
-    window.open("popAs1.html","width=100%", "_self");
+    window.open("popA1s1.html","width=100%", "_self");
 }
 
 
-function PopWinAs1_1()
+function PopWinA1s1_1()
 {
-    window.open("popAs1_1.html","width=100%", "_self");
+    window.open("popA1s1_1.html","width=100%", "_self");
 }
 
 
-function PopWinAr1()
+function PopWinA1r1()
 {
-    floatingWindow = window.open("popAr1.html","","height=400,width=400,scrollbars=yes");
+    floatingWindow = window.open("popA1r1.html","","height=400,width=400,scrollbars=yes");
 }
 
 
-function PopWinAs1_2()
+function PopWinA1s1_2()
 {
-    window.open("popAs1_2.html","width=100%", "_self");
+    window.open("popA1s1_2.html","width=100%", "_self");
 }
 
 
-function PopWinAr2()
+function PopWinA1r2()
 {
-    floatingWindow = window.open("popAr2.html","","height=400,width=400,scrollbars=yes");
+    floatingWindow = window.open("popA1r2.html","","height=400,width=400,scrollbars=yes");
 }
 
 
-function PopWinAs1_2w1()
+function PopWinA1s1_2w1()
 {
-    window.open("popAs1_2w1.html","","height=400,width=400,scrollbars=yes");
+    window.open("popA1s1_2w1.html","","height=400,width=400,scrollbars=yes");
 }
 
 
-function PopWinAs1_2w2()
+function PopWinA1s1_2w2()
 {
-    window.open("popAs1_2w2.html","","height=400,width=400,scrollbars=yes");
+    window.open("popA1s1_2w2.html","","height=400,width=400,scrollbars=yes");
 }
 
 
-function PopWinAs1_3()
+function PopWinA1s1_3()
 {
-    window.open("popAs1_3.html","width=100%", "_self");
+    window.open("popA1s1_3.html","width=100%", "_self");
 }
 
-function PopWinAr3()
+function PopWinA1r3()
 {
-    floatingWindow = window.open("popAr3.html","","height=400,width=400,scrollbars=yes");
+    floatingWindow = window.open("popA1r3.html","","height=400,width=400,scrollbars=yes");
 }
 
 
 
 
 
-function PopWinAs1_4()
+function PopWinA1s1_4()
 {
-    window.open("popAs1_4.html","width=100%", "_self");
+    window.open("popA1s1_4.html","width=100%", "_self");
 }
 
 
