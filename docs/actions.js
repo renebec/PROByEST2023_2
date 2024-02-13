@@ -1,3 +1,8 @@
+function PopWinClose()
+{
+    window.close();
+}
+
 function PopWinHome()
 {
     window.open("index.html","width=100%", "_self");
