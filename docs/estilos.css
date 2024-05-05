@@ -217,18 +217,7 @@ th {
   word-break:break-all;
 }
 
-.table3, td {
-    border:1px solid white;
-  font-family: courier;
-  font-size: 21px;
-  border-collapse: collapse;
-  text-align: center;
-  padding: 5px;
-  white-space:no-wrap;
-  table-layout: fixed;
-     word-wrap: break-word;
-  word-break:break-all;
-}
+
 
 .table4, td {
     border:1px solid white;
@@ -264,24 +253,6 @@ th {
 }
 D6EEEE
 
-td.uno {
- width: 36%;
- table-layout: fixed;
- }
-
-td.dos {
- width: 15%;
- table-layout: fixed;
- }
-
-td.tres {
- width:9%;
- table-layout: fixed;
- }
-
-td.cuatro {
- table-layout: fixed;
- }
 
 .rectangle {
   height: 200px;
@@ -338,7 +309,7 @@ li a {
   color: #F9BC10;
   text-decoration: none;
 }
-B9FC1C
+
 
 li a.active {
   background-color: #FF7700;
@@ -367,8 +338,29 @@ each other instead of next to each other, on small screens */
   background-color: #222222;
   transition: transform .5s; /* Animation */
   margin: auto;
+  scale:10%;
 }
 
+.wrap {
+        width: 225%;
+        margins:auto;
+        padding: 0;
+        overflow: hidden;
+      }
+.scaled-frame {
+        width: 150%;
+        margins:auto;
+        border: 0px;
+      }
+.scaled-frame {
+        zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+      }
 
 
 px {
@@ -405,4 +397,30 @@ span:after {
     width: 27px;
     text-align: center;
 }
+
+div.num {
+    border-bottom:1px solid;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div.denom {
+    text-align: center;
+    font-size: 0.8em;
+    width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:5%;
+  padding-right:7%;
+  white-space:no-wrap;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tablefrac {
+    width:50%;
+  border-collapse: collapse;
+}
+
 ​
