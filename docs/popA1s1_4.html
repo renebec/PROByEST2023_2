@@ -22,13 +22,12 @@
                         <br>
 
                         <ph5>
-                            4. Medidas de dispersión
+                            4. Medidas de dispersión: <br>&emsp;&emsp;<text style="color:purple">Amplitud, Varianza y Desviación Estándar.</text>
                         </ph5>
 <br>
 Duración: 4 sesiones
 <br>
-<br>
-<br>
+
                 <br>
 <p style = "color:#EB417D;font-weight:bold;">Situación III</p>
                     Una tienda de abarrotes tiene <b>dos proveedores</b> de guayaba (proveedor g1 y proveedor g2), y
@@ -66,8 +65,6 @@ Duración: 4 sesiones
                 print(paste0("Las veces que se presenta cada edad es: "))<br>
                 table(edades)<br>-->
 
-
-
                 <i>
                     <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
                         <br>
@@ -79,30 +76,42 @@ Duración: 4 sesiones
                             ver Rúbrica 4....</button>
                         <br>
                         <br>
-                        &nbsp;&nbsp;<b>Escribe las siguientes siguientes instrucciones y preguntas en
+                        &nbsp;&nbsp;<b>Escribe las siguientes instrucciones y preguntas en
                         tu libreta y responde correctamente.</b>
                         <br>
                         <br>
 
-                        1. Para cada proveedor suma los pesos observados en las 10 cajas:<br>
-                        <px style="font-size:12px;">
+                        1. Para cada proveedor calcula la media de los pesos observados en las 10 cajas:<br>
+                        <px style="font-size:9px;">
+                            <span style="margin-left:10px;"><text style="color:#FFFFFF;">&Sigma;x</text><sub style="font-size:14px;"><text style="color:#FFFFFF;">i</text></sub> / <text style="color:cyan;">n</text> = x&#772;  </span></px>
                             <br>
-                            <span>&Sigma; x<sub style="font-size:18px"> i</sub> = 11.5 + 11.9 + ... + 11.3</span>
+                        <br>
+                            <b style="color:yellow">Proveedor g1</b><br>
+                        <px style="font-size:9px;">   <span>&Sigma; x<sub style="font-size:11px"> i</sub> / n = (11.5 + 11.9 + ... + 11.3) / 10</span>
+                        </px>
                            <br>
                             <br>
-                            </px>
-                            2. Para cada proveedor calcula la media muestral:<br>
-                        <px style="font-size:12px;">
+                        x&#772; = 11.31
+                        <br>
+                        <br>
+                        <b style="color:yellow">Proveedor g2</b><br>
+                        <px style="font-size:9px;">   <span>&Sigma; x<sub style="font-size:11px"> i</sub> / n = (10.4 + 12 + ... + 11.2) / 10</span></px>
+                           <br>
                             <br>
-                            <span>&Sigma; x<sub style="font-size:18px"> i</sub> / n  =</span>
-                        </px>
-                        <br>
-                        <br>
-                        3. Para cada proveedor calcula la amplitud de los datos observados:
+                        x&#772; = 11.31
                         <br>
                         <br>
 
-                            max(x) - min(x) =
+
+                        <text style="background-color:#350530;color:cyan;">
+                    Notamos que al comparar las <b>medias</b> de los dos proveedores no existe
+                    diferencia, las dos medias son iguales. Lo que quiere decir que el punto de
+                    equilibrio de la distribución de los valores observados en el peso de las cajas
+                    es igual para los dos proveedores. Con los conocimientos adquiridos hasta aquí,
+                    podríamos estar tentados a decir que no hay diferencia entre proveedores. Sin
+                    embargo, conoceremos las <b>medidas de dispersión</b>, las cuales nos ayudarán a
+                    realizar mejores comparaciones entre las muestras analizadas.
+                </text>
 
 
                         <!--<table
@@ -111,11 +120,191 @@ Duración: 4 sesiones
                         </table> -->
 
                         </p>
+                </i>
+                <br>
+<hr>
+                <br>
+                La <b>medida de dispersión</b> más fácil de calcular es la <b style="color:pink">Amplitud (A)</b>, la cual
+                nos indica cual es la distancia entre el valor más pequeño y el más gande presentes
+                en la muestra. La forma de calcular <b>A</b> es con la siguiente fórmula:
+                <br>
+                <br>
+                &emsp;<b>A = max - min</b>
+                <br>
+                <br>
+                Donde:<br>
+                <b>A</b> es el valor de la Amplitud de los valores observados en la muestra.<br>
+                <b>max</b> es el valor más grande observado en la muestra.<br>
+                <b>min</b> es el valor más chico observado en la muestra.
+                <br>
+                <br>
+                Calculando <b>A</b> del proveedor <b>g1</b> tenemos:<br>
+                <b>A</b> = 12.9 - 9.1<br>
+                <b>A</b> = 3.8
+                <br>
+                <br>
+                Calculando <b>A</b> del proveedor <b>g2</b> tenemos:<br>
+                <b>A</b> = 12.1 - 10.4<br>
+                <b>A</b> = 1.7
+                <br>
+                <br>
+Podemos ver ahora que, aunque el valor de la <b>Media</b> es igual para ambos proveedores,
+son diferentes en cuanto a la <b>Amplitud</b>. La <b>Amplitud</b> del <b>proveedor g1</b> es
+el doble que la del <b>proveedor g2</b>, debido a que los pesos de las cajas del proveedor <b>g1</b>
+presentan valores más extremos que las del proveedor <b>g2</b>. Gracias a la <b>Amplitud</b>
+ahora podemos afirmar que existen diferencias entre ambos
+proveedores.
+                <br>
+<hr>
+<br>
+La siguiente medida de dispersión que conoceremos es la <b style="color:pink">Varianza (s<sup>2</sup>)</b>
+la cual nos ayuda a tener una medida de la magnitud con la que los datos se desvían con
+respecto a la <b>Media</b>. La forma de obtener <b>s<sup>2</sup></b> es con la siguiente fórmula:
+<br>
+<br>
+<px style="font-size:9px;">   <span><text style="color:yellow;">&Sigma; (x<sub style="font-size:11px"> i </sub> - x&#772;)<sup>2</sup></text> / <text style="color:cyan;">(n - 1)</text> = <b style="color:pink;">s<sup>2</sup></b></span>
+</px>
+<br>
+<br>
+Al analizar la fórmula anterior observamos que en la parte del <b style="color:yellow;">numerador</b> se indica
+una serie de operaciones que involucra primero <b>restar</b> el valor de la <b>Media</b> a cada valor observado,
+después se eleva el resultado al cuadrado y al final se deben sumar los resultados. En el <b style="color:cyan;">denominador</b>
+debe ir el tamaño de muestra menos uno.
+<br>
+<br>
+Calculando la <b>Varianza</b> del <b>proveedor g1</b>, realizando las operaciones del
+<b style="color:yellow;">numerador</b> tenemos que:
+<br>
+<br>
+<text style="color:yellow">(11.5 - 11.31)<sup>2</sup> + (11.9 - 11.31)<sup>2</sup> + (9.1 - 11.31)<sup>2</sup> +
+    (11.9 - 11.31)<sup>2</sup> + . . . + (11.3 - 11.31)<sup>2</sup>
+</text>
+<br>
+<br>
+Resolviendo primero las restas tenemos entonces:
+<br>
+<br>
+<text style="color:yellow;">
+    (0.19)<sup>2</sup> + (0.59)<sup>2</sup> + (-2.21)<sup>2</sup> + (0.59)<sup>2</sup> + . . . + (-0.01)<sup>2</sup>
+</text>
+<br>
+<br>
+Ahora elevamos al cuadrado cada uno de los términos:
+<br>
+<br>
+<text style="color:yellow;">
+    (0.0361) + (0.3481) + (4.8841) + (0.3481) + . . . + (0.0001)
+</text>
+<br>
+<br>
+Ahora realizamos la suma de todos los términos y obtenemos como resultado en el numerador
+<b style="color:yellow;">11.009</b>.
+<br>
+<br>
+De acuerdo con la fórmula de <b>Varianza</b> el valor del <b style="color:cyan;">denominador</b>
+se obtiene restándole 1 al tamaño de muestra (n), en este caso recordemos que n = 10, por lo tanto:
+<br>
+<br>
+<text style="color:cyan">(n - 1) = (10 -1)<br>
+    (10 - 1) = 9
+</text>
+<br>
+<br>
+Una vez que obtuvimos tanto el valor del <b style="color:yellow;">numerador</b> como del
+<b style="color:cyan;">denominador</b> el siguiente paso es obtener dicho cociente de acuerdo a
+lo que indica la fórmula.
+<br>
+<br>
+<b>s<sup>2</sup></b> = <text style="color:yellow;">11.009</text> / <text style="color:cyan;">9</text> <br>
+<b>s<sup>2</sup></b> = <b style="color:coral">1.2232</b>
+<br>
+<br>
+La <b>Varianza (s<sup>2</sup>)</b> del proveedor <b>g1</b> es entonces <b style="color:coral">1.2232</b>.
+<br>
+<br>
+En el caso del <b>proveedor g2</b> y siguiendo el procedimiento que acabamos de describir obtenemos que
+el valor de la <b>Varianza (s<sup>2</sup>)</b> es <b style="color:coral">0.2587</b>.
+<br>
+<br>
+<i>
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
+                        <br>
+                        <b>Actividad 5</b>
+
+                        <br>
+                        &#128073;<button onclick="PopWinA1r5()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 5....</button>
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;<b>Escribe las siguientes instrucciones y preguntas en
+                        tu libreta y responde correctamente.</b>
+                        <br>
+                        <br>
+
+                        1. Realiza y escribe el procedimiento para calcular la <b>Varianza (s<sup>2</sup>)</b> de
+                        los datos del <b>proveedor g2</b> considerando todas las operaciones que
+                        corresponde. Verifica que tu resultado sea el que se señaló en renglones anteriores y que fue
+                        de <b style="color:coral">0.2587</b>.
+                        <br>
+                        <br>
+                        Es importante señalar que el valor de la <b>Varianza</b> no es en unidades del
+                        fenómeno de estudio. Para poder obtener una <b>medida de dispersión</b> dada
+                        en las unidades que se están analizando entonces conviene calcular la
+                        <b>Desviación Estándar (s)</b>.
+
                 </text>
 
 
-                <br>
-                <br>
+                        <!--<table
+                            class="tablefrac">
+                            <tr style="background-color:#424242;"><td></td><td style="width:5em;background-color:#424242;font-size:40px;">(</td><td style="white-space:nowrap;width:20em;background-color:#424242;"><span>&Sigma;<i>&nbsp;x</i><sub style="font-size:18px">i</sub></td></span></td><td style="width:5px;background-color:#424242;font-size:40px;font-size:40px;">)</td><td style="background-color:#424242;">*</td><td style="width:5px;background-color:#424242;font-size:40px;">(</td><td style="background-color:#424242;font-size:30px;"><div class="num">1</div><div class="denom">2</div></td><td style="background-color:#424242;font-size:40px;">)</td></tr>
+                        </table> -->
+
+                        </p>
+                </i>
+<hr>
+<br>
+La <b>medida de dispersión</b> conocida como <b>Desviación Estándar (s)</b> se obtiene
+como la raíz cuadrada de la <b>Varianza</b>, tal como lo índica la siguiente fórmula:
+<br>
+<br>
+s = &radic;s<sup>2</sup>
+<br>
+<br>
+Siguiendo el ejemplo de los proveedores obtenemos la <b>Desviación Estándar</b> de los
+datos del <b>proveedor g1</b>:
+<br>
+<br>
+<b>s = &radic;s<sup>2</sup></b><br>
+<b>s = &radic;1.2232</b><br>
+<b>s = 1.1059</b>
+<br>
+<br>
+Calculamos ahora la <b>Desviación Estándar</b> del <b>proveedor g2</b>:
+<br>
+<br>
+<b>s = &radic;s<sup>2</sup></b><br>
+<b>s = &radic;0.2587</b><br>
+<b>s = 0.5086</b>
+<br>
+<br>
+Con estos resultados podemos observar que la <b>Desviación Estándar</b> del
+<b>proveedor g1</b> es más del doble que la del <b>proveedor g2</b>.
+<br>
+<hr>
+<br>
+Terminamos aquí éste tema donde conocimos tres <b>medidas de dispersión</b> que fueron
+las siguientes:
+<br>
+<br>
+<b style="color:yellow">Amplitud (A)<br>
+Varianza (s<sup>2</sup>)<br>
+Desviación Estándar (s)</b>
+<br>
+<br>
+<hr>
+
                 <button onclick="PopWinA1s1_3()"
                                 style="font-weight:bold;color:white;width:100px" class="botonBack">
                    <<</button><br>
@@ -186,7 +375,13 @@ Duración: 4 sesiones
 
 -->
 
-
+&#8745;
+&#8746;
+&#8709;
+&#8834;
+&#8800;
+&#8712;
+&#8713;
 
 </body>
 </html>
